@@ -1,0 +1,17 @@
+{
+  "name": "calcify",
+  "version": "1.0.0",
+  "description": "CalciFy: build, save, share and review your own custom calculators.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "test": "node tests/engine.test.mjs && node tests/api.test.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": ">=8.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

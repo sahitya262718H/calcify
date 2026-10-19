@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run CalciFy (localhost:8888)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/dev-server.mjs",
+      "console": "integratedTerminal"
+    }
+  ]
+}
